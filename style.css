@@ -3,6 +3,7 @@ body{
     background-image: url(Fondecran.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
+    z-index: -1;
 }
 
 /*Styliser le titre*/
@@ -47,34 +48,83 @@ h1{
   }
 
 /*Faire le style de la page des champions*/
-#champions{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
+.pagine{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 100px;
 }
-.champion{
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
+
+#champions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  margin: 10px;
+  text-align: center ;
+
+  font-size: 25px;
+  font-family: 'Titan One', cursive;
+  
+
 }
-.champion img{
-    max-width: 100px;
+
+.champion {
+  width: calc(20% - 10px);
+  cursor: pointer;
 }
-.champion h3{
-    margin-top: 10px;
+
+.champion img {
+  width: 300px;
+  height: 400px;
 }
-#champion-details{
-    display: none;
-    padding: 20px;
+
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-#champion-details img{
-    max-width: 200px;
-    float: left;
-    margin-right: 20px;
+
+#pagination button {
+  margin: 0 10px;
 }
-#champion-details h2{
-    margin-top: 0;
+
+
+#champion-details {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#champion-details img {
+  width: 350px;
+  height: 450px;
+  
+}
+
+#champion-details h2 {
+  margin-top: 10px;
+  font-size: 60px;
+  
+  
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination-button {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #000000;
+  cursor: all-scroll;
+}
+
+.pagination-button.active {
+  background-color: #000000;
 }
