@@ -1,10 +1,11 @@
-/*Insertion d'un fond d'écran*/
+/*Mettre le style du fond d'écran*/
 body{
     background-image: url(Fondecran.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
-/*Insertion d'un titre*/
+
+/*Styliser le titre*/
 h1{
     font-family: 'Titan One', cursive;
     font-weight: bolder;
@@ -12,7 +13,7 @@ h1{
     color: #0d1aaf;
 }
 
-/*Insertion d'une barre de navigation*/
+/*Mettre en forme une barre de navigation*/
   #container > nav > ul {
     margin:0;
     display:flex;
@@ -44,5 +45,36 @@ h1{
   a {
     text-decoration:none;
   }
- 
- 
+
+/*Faire le style de la page des champions*/
+#champions{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.champion{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.champion img{
+    max-width: 100px;
+}
+.champion h3{
+    margin-top: 10px;
+}
+#champion-details{
+    display: none;
+    padding: 20px;
+}
+#champion-details img{
+    max-width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+#champion-details h2{
+    margin-top: 0;
+}
