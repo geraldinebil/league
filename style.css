@@ -1,0 +1,48 @@
+/*Insertion d'un fond d'écran*/
+body{
+    background-image: url(Fondecran.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/*Insertion d'un titre*/
+h1{
+    font-family: 'Titan One', cursive;
+    font-weight: bolder;
+    font-size: 55px;
+    color: #0d1aaf;
+}
+
+/*Insertion d'une barre de navigation*/
+  #container > nav > ul {
+    margin:0;
+    display:flex;
+    position:absolute;
+    top: 50px;
+    right: 40px;
+  }
+  #container > nav > ul > li {
+    line-height:50px;
+    margin: 0px;
+    padding:1px;
+    text-align:right;
+    display:inline-block;
+    font-size: 20px;
+    color: #0d1aaf;
+    font-weight: bolder;
+    font-family: 'Titan One', cursive;
+  } 
+  #container > nav > ul > li > a {
+    position:relative;
+    margin: 0 20px;
+    color: #0d1aaf;
+    font-weight: bolder;
+  }
+  #container > nav > ul > li:hover {
+    border-bottom: 2px solid white;
+    background-color: #000000;
+  }
+  a {
+    text-decoration:none;
+  }
+ 
+ 
