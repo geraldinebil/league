@@ -41,7 +41,9 @@ Un wireframing en desktop a été créer pour construire le design du quizz (voi
 
 Liste de prérequis du Quizz: 
 
-![c36ed857-8d3f-4c32-b134-0a5ff1457aac_1](https://github.com/geraldinebil/league/assets/113667275/e857a2de-c143-4b2f-8a38-f1a839c5238a)
+![4212e524-916e-42b2-9275-49bba6a89ebc_1](https://github.com/geraldinebil/league/assets/113667275/4bc4b6fc-338d-4d90-8949-7121ee6216f4)
+![6566dcea-0d21-4054-8e4c-2e5f3cb4d106_1](https://github.com/geraldinebil/league/assets/113667275/737dbee3-47be-4ff6-84fc-22df6ec1d1d1)
+
 
 Lien vers trello:
 
