@@ -41,7 +41,7 @@ Un wireframing en desktop a été créer pour construire le design du quizz (voi
 
 Liste de prérequis du Quizz: 
 
-League_of_Legends_Quizz_1.pdf
+![c36ed857-8d3f-4c32-b134-0a5ff1457aac_1](https://github.com/geraldinebil/league/assets/113667275/e857a2de-c143-4b2f-8a38-f1a839c5238a)
 
 Lien vers trello:
 
