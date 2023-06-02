@@ -17,12 +17,12 @@ les compétences et les armes des champions.
 
 ## Prérequis
 
-Liste des fonctionnalités requises à la création du du Quizz of legends (voir documentation)
+Liste des fonctionnalités requises à la création du Quizz of legends (voir documentation)
 
 ## Tableau
 
 Création d'un trello permettant de cibler les tâches à effectuer avec notation d'étiquettes selon la dfificulté rencontrer et timing.
-https://trello.com/b/ym1mcUHN/league-of-legends-lol
+
 
 ## Construit avec
 
@@ -35,4 +35,19 @@ De plus une API LOL par RIOT a été utilisé pour la récupération des éléme
 
 ## Schéma
 
-Un wireframing en desktop est résponsive a été créer pour construire le design du quizz (voir documentation)
+Un wireframing en desktop a été créer pour construire le design du quizz (voir documentation)
+
+## Documentation
+
+Liste de prérequis du Quizz: 
+
+League_of_Legends_Quizz_1.pdf
+
+Lien vers trello:
+
+https://trello.com/b/ym1mcUHN/league-of-legends-lol
+
+Wireframing et maquette:
+
+https://www.figma.com/file/UeuzwVt8Emu4bkIWUoAYyJ/Quizz-of-legends?type=design&node-id=0-1&t=IcYEfvahVBIkWM4K-0
+
