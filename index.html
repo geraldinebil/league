@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,14 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&family=Titan+One&display=swap" rel="stylesheet">
 </head>
 
-<script src="scripts.js"></script>
+
 
 <body>
 
-    <!--Insertion d'un titre-->
+
+    <div id="champions-list"></div>
+    <div id="pagination-container"></div>
     <h1>QUIZZ LEAGUE OF LEGENDS</h1>
-    
-    <!--Insertion d'une barre de navigation-->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Rechercher un champion...">
+        <button id="search-button">Rechercher</button>
+    </div>
+    <div id="championDetails"></div>
     <div id="container">
         <nav>
             <ul>
@@ -30,24 +35,30 @@
             </ul>
         </nav>
     </div>
-    
-    <!--Listage des champions-->
     <div class="pagine">
         <div>
-            <div id="champions"></div>
+            <div id="champions" style="width: 1250px; height: 1550px;"></div>
             <div id="pagination">
                 <button id="previous-btn">&lt; Précédent</button>
                 <span id="current-page"></span>
                 <button id="next-btn">Suivant &gt;</button>
             </div>
         </div>
-     <div id="champion-details">
-    <div id="champion-image"></div>
-    <div id="champion-info"></div>
-  </div>
-
-</div>
-<script src="scripts.js"></script>
+        <div id="champion-details">
+            <div id="champion-image"></div>
+            <div id="champion-info"></div>
+            <div id="champion-skills"></div>
+            <div id="champion-skills-description"></div>
+            <div id="champions-list"></div>
+            <div id="champions"></div>
+        </div>
+    </div>
+    </div>
+    
+    <canvas id="champion-stats-chart"></canvas>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="chart.js"></script>
 </body>
 
 </html>
